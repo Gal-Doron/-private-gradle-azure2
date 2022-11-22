@@ -1,3 +1,13 @@
 {
-  "settingsInheritedFrom": "Gal-Doron/whitesource-config@main"
+  "settingsInheritedFrom": "Gal-Doron/whitesource-config@main",
+  "hostRules": [
+    {
+      "matchHost": "https://pkgs.dev.azure.com/angierWS/_packaging/Maven/maven/v1",
+      "hostType": "gradle",
+      "userName": "angierWS",
+      "encrypted": {
+        "token": "wcBMA8xOaBJvzJNbAQf8CZTJvlEwRGa0Wq3VEFS1T3MSqDNuT9WsTWI0uJM9bKDmXyeXnwtr/t7JBqcQSS7iI4PMpmzKxs71rLs1Ewb3ooaJfgTKrBiuIfg027BiRjVJrOY2CHig5eI9Wn+v5Xok+b872nZflAe4D5sgv39mCGpzLUiIQl5+dKxIZagjroH5REJqQph/rp00ISkmn2s8X+KLWkcNohArEJaUWAllg8RgMoAhVrmcSWE/KHSlSrLrf8HEeVfPuqv7jeFSs5BzOmS7lr2sHzN8HwYVbNxQQgdc6X/0cA3N29oqv+zKtmIzQprzHXrqeY3Zf8SkrpkFlMB7ummVxs0JEa+7icbl3NKEAaQtB/L7Pd8N5K2E6pBz1O+LA4X+hsdNhocccJ2Q73MkAclHJSdCuCIHQ776ueHCWuTX4z2+vnGOEM1VxQdKtu2ZyVrpqJRPoJgsCJudIODGxcqLNQGNcKPDQrsxZAnfOuBcb+AXdY7ZSWIbGwgsyIbkY9Dqr7wEq84lKA1TvqBvn46g"
+      }
+    }
+  ]
 }
