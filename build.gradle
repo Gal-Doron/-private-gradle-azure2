@@ -7,6 +7,16 @@ plugins {
 group = 'org.groovy'
 version = '1.0'
 
+repositories {
+maven {
+    url 'https://pkgs.dev.azure.com/angierWS/_packaging/Maven/maven/v1'
+    name 'Maven'
+    authentication {
+        basic(BasicAuthentication)
+    }
+}
+}
+
 dependencies {
 	implementation 'org.mend:angies-party:1.0'
 }
